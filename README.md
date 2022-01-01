@@ -21,4 +21,15 @@ Cross-modality fusing complementary information of multispectral remote sensing 
 ||CMAFF_2|0.08|0.16|0.33|
 ||CMAFF_3|0.31|0.62|1.28|
 ||**Average**|0.14|0.29|0.59|
-
+|Yolov5s|MCFF_1|0.02|0.03|0.07|
+||MCFF_2|0.03|0.06|0.13|
+||MCFF_3|0.06|0.13|0.26|
+||**Average**|0.04|0.07|0.15|
+|Yolov5s|GFU_1|0.59|7600|49.25|
+||GFU_2|9.50|7600|32.94|
+||GFU_3|38.00|7600|49.72|
+||**Average**|4.16|7600|43.97|
+|Yolov5s|CMAFF_1|0.02|0.04|0.08|
+||CMAFF_2|0.04|0.08|0.16|
+||CMAFF_3|0.08|0.16|0.33|
+||**Average**|0.05|0.09|0.19|
