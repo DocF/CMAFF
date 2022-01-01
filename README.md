@@ -7,7 +7,18 @@ Auhtor: FANG Qingyun and WANG Zhaokui
 Cross-modality fusing complementary information of multispectral remote sensing image pairs can improve the perception ability of detection algorithms, making them more robust and reliable for a wider range of applications, such as nighttime detection. Compared with prior methods, we think different features should be processed specifically, the modality-specific features should be retained and enhanced, while the modality-shared features should be cherry- picked from the RGB and thermal IR modalities. Following this idea, a novel and lightweight multispectral feature fusion approach with joint common-modality and differential-modality attentions are proposed, named Cross-Modality Attentive Feature Fusion (CMAFF). Given the intermediate feature maps of RGB and IR images, our module parallel infers attention maps from two separate modalities, common- and differential-modality, then the attention maps are multiplied to the input feature map respectively for adaptive feature enhancement or selection. Extensive experiments demonstrate that our proposed approach can achieve the state-of-the-art performance at a low computation cost.
 
 ## Result
-
-
-
+|Model|Attention|Params(M)|FLOPs(M)|MemR+W(MB)|
+|:---------:|:---------:|:------------:|:-----:|:-----------------:|
+|Yolov5l|MCFF_1|0.03|0.06|0.13|
+||MCFF_2|0.06|0.13|0.26|
+||MCFF_3|0.16|0.50|1.02|
+||**Average**|0.08|0.23|0.47|
+|Yolov5l|GFU_1|2.38|30400|103.25|
+||GFU_2|9.50|30400|84.88|
+||GFU_3|38.00|30400|175.44|
+||**Average**|16.63|30400|121.19|
+|Yolov5l|CMAFF_1|0.04|0.08|0.16|
+||CMAFF_2|0.08|0.16|0.33|
+||CMAFF_3|0.31|0.62|1.28|
+||**Average**|0.14|0.29|0.59|
 
