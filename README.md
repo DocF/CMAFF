@@ -4,7 +4,7 @@ Auhtor: FANG Qingyun and WANG Zhaokui
 
 
 ## Intro
-#### Cross-Modality Attentive Feature Fusion 
+#### CMAFF:Cross-Modality Attentive Feature Fusion 
 <div align="left">
 <img src="https://github.com/DocF/CMAFF/blob/main/yolofusion.png" width="800">
 </div>
